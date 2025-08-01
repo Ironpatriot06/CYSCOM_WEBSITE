@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Share Tech Mono', monospace;
+}
+
+.mission-section {
+  background-color: #050515;
+  padding: 4rem 2rem;
+  color: white;
+  text-align: center;
+}
+
+.mission-title {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.mission-subtitle {
+  font-size: 1.2rem;
+  color: #aaa;
+  margin-bottom: 3rem;
+}
+
+.mission-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.mission-card {
+  background-color: #0d1a2d;
+  border: 2px solid #00f0ff;
+  border-radius: 10px;
+  padding: 2rem;
+  position: relative;
+  box-shadow: 0 0 20px #00f0ff66;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.mission-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 0 30px #00f0ff;
+}
+
+.card-title {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  color: #00f0ff;
+}
+
+.card-desc {
+  font-size: 1rem;
+  color: #ccc;
+  line-height: 1.4;
+}

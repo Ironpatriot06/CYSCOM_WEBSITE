@@ -1,0 +1,62 @@
+.navbar {
+    position: fixed;
+    width: 100%;
+    padding: 1rem 2rem;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    background-color: transparent;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.scrolled {
+    background-color: rgba(10, 10, 31, 0.255);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(10px);
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+    padding-right: 16rem;
+}
+
+.navLinks {
+    display: flex;
+    gap: 6.5rem;
+    list-style: none;
+}
+
+.navLinks li a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+}
+
+/* .recruitBtn{
+    width: 100px;
+    margin-left:10rem;
+    height: 20px;
+    background-color: red;
+} */
+
+.recruitbtn {
+    padding: 0.4rem 1rem;
+    border-radius: 6px;
+    background: linear-gradient(45deg, #00ffcc, #3366ff);
+    color: black;
+    border: none;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    margin-left:8rem;
+  }
+  
+  .recruitbtn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 15px rgba(0, 255, 204, 0.5);
+  }

@@ -1,0 +1,34 @@
+.terminal-container {
+  background-color: #000;
+  color: #0072ff;
+  font-family: 'Share Tech Mono', monospace;
+  padding: 30px;
+  border: 1px solid #0072ff;
+  border-radius: 8px;
+  box-shadow: 0 0 15px #0072ff;
+  max-width: 700px;
+  margin: 0px 400px;
+}
+
+  .highlight {
+    color: #66ffc7;
+    font-weight: bold;
+  }
+  
+  .blinking {
+    animation: blink 1s infinite;
+    margin-bottom: 10px;
+  }
+  
+  @keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 0.2; }
+    100% { opacity: 1; }
+  }
+  
+
+.boxx{
+    background-color: #050515;
+    padding:100px 0px;
+}
+  
